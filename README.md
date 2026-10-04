@@ -1,6 +1,6 @@
 # Bridge Pattern — Quiz Answer Channels
 
-This project demonstrates the Bridge design pattern in Java. We have two independent dimensions of variation: Quizzes (Multiple Choice, Open-Ended, True or False) and Answer Channels (Console, Web Form, Voice Assistant). Without the Bridge pattern, combining 3 quiz types with 3 channel implementations would lead to a combinatorial explosion of 3 x 3 = 9 subclasses. The Bridge pattern decouples abstraction from implementation, allowing them to vary independently; the implementation can also be switched at runtime.
+This project demonstrates the Bridge design pattern in Java. I have two independent dimensions of variation: Quizzes (Multiple Choice, Open-Ended, True or False) and Answer Channels (Console, Web Form, Voice Assistant). Without the Bridge pattern, combining 3 quiz types with 3 channel implementations would lead to a combinatorial explosion of 3 x 3 = 9 subclasses. The Bridge pattern decouples abstraction from implementation, allowing them to vary independently; the implementation can also be switched at runtime.
 
 ## Project Folder Structure
 
